@@ -1,11 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript onload, onclick, ondblclick</title>
+    
+    <script>
+        function changeMe (){
+        document.getElementById("test").innerHTML = "The From JavaScript"
+    }
+    </script>
 </head>
+
 <body>
+    <button ondblclick="changeMe()">Change Me</button>
+    <div id="test">This Is Test</div>
     <script src="main.js"></script>
 </body>
+
+
 </html>
+
+onclick
+ondblclick
+onload
+ Det kan vara efter windo eller på ett buttom 
